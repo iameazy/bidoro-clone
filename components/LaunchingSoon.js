@@ -18,7 +18,7 @@ export default function LaunchingSoon() {
         {/* Text without yellow border */}
         <div className="relative inline-block mx-auto mb-20">
           <h2 className="text-5xl md:text-6xl font-bold text-[#1C341A] text-center">
-            We're launching<br />Soon
+            We&apos;re launching<br />Soon
           </h2>
         </div>
 
