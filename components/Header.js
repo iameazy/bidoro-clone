@@ -1,18 +1,15 @@
 export default function Header() {
   return (
-    <header className="w-full py-6 px-4 md:px-8">
-      <div
-        className="flex items-center justify-center w-full max-w-[550px] mx-auto border border-[#E3E3E3] rounded-full p-2 bg-white"
-        style={{ opacity: 1, transform: "none" }}
-      >
-        <div className="w-full flex items-center justify-between gap-2 ml-4">
-          <svg
-            width="125"
-            height="30"
+    <header className="w-full py-4 md:py-6 px-4 md:px-8">
+    <div className="flex items-center justify-center w-full max-w-[550px] mx-auto border border-[#E3E3E3] rounded-full p-2 bg-white">
+      <div className="w-full flex items-center justify-between gap-2 px-2 md:ml-4">
+        <svg
+            width="100"
+            height="24"
             viewBox="0 0 125 30"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="h-auto"
+            className="h-auto md:w-[125px] md:h-[30px]"
           >
             <path
               d="M9.66211 24.3327C11.2112 24.3328 12.4666 25.5527 12.4668 27.0574C12.4668 28.5622 11.2113 29.7828 9.66211 29.7829C8.11284 29.7829 6.85645 28.5623 6.85645 27.0574C6.85665 25.5526 8.11297 24.3327 9.66211 24.3327ZM19.2031 24.3327C20.7523 24.3327 22.0086 25.5526 22.0088 27.0574C22.0088 28.5623 20.7524 29.7829 19.2031 29.7829C17.654 29.7828 16.3984 28.5622 16.3984 27.0574C16.3986 25.5527 17.6541 24.3329 19.2031 24.3327ZM1.8457 15.4734C2.46911 9.55475 7.91392 5.24625 14.0068 5.8513C20.0996 6.45672 24.5337 11.7461 23.9111 17.6648C23.6386 20.2528 22.444 22.5332 20.6768 24.2292C20.2342 24.0138 19.7347 23.8915 19.2061 23.8913C17.4441 23.8913 16.0049 25.2374 15.9199 26.9285C15 27.1836 14.0358 27.3263 13.0449 27.3396C13.0516 27.2563 13.0566 27.1716 13.0566 27.0867C13.0564 25.3224 11.5838 23.8916 9.76758 23.8913C8.49938 23.8913 7.39849 24.5887 6.84961 25.6101C3.47092 23.4798 1.40805 19.6334 1.8457 15.4734ZM6.42676 0.0436859C10.1266 -0.34547 13.4749 2.06014 14.2422 5.51732C14.1018 5.49814 13.9606 5.47969 13.8184 5.46556C12.7885 5.36332 11.7773 5.40363 10.8047 5.56615C10.1642 4.04657 8.54872 3.05472 6.78418 3.23997C4.64685 3.46485 3.10193 5.33081 3.33301 7.40697C3.41416 8.13394 3.70271 8.79041 4.13477 9.32689C2.78678 10.9115 1.88982 12.8883 1.6582 15.0867C1.62007 15.4492 1.60154 15.8099 1.60059 16.1667L0.269531 8.83177C0.165107 8.51639 0.0871821 8.15785 0.0419922 7.75267C-0.385766 3.91124 2.47222 0.459924 6.42676 0.0436859Z"
@@ -35,7 +32,7 @@ export default function Header() {
               </linearGradient>
             </defs>
           </svg>
-          <button className="text-sm sm:text-base bg-[#1C341A] text-[#DEE563] px-6 py-2 rounded-full hover:bg-[#2A4A28] transition-colors cursor-pointer">
+          <button className="text-xs md:text-sm bg-[#1C341A] text-[#DEE563] px-4 md:px-6 py-2 rounded-full hover:bg-[#2A4A28] transition-colors cursor-pointer whitespace-nowrap">
             Join waitlist
           </button>
         </div>
